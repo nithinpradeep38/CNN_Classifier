@@ -26,7 +26,10 @@ list_of_files= [
                 "setup.cfg",                  #required if creating a python package only
                 "pyproject.toml",              #required if creating a python package only  
                 "tox.ini",                      #for testing locally
-                "research/trials.ipynb"         #for testing in jupyter environment
+                "research/trials.ipynb",         #for testing in jupyter environment
+                "tests/__init__.py",
+                "tests/unit/__init__.py",       #unit test is for testing a specific component
+                "tests/integration/__init__.py" #integration test is for pipeline or when merging two components
                                           
                 
               ]
