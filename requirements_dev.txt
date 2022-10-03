@@ -8,7 +8,6 @@ seaborn
 
 -e .
 
-
 ## Dev requirements: Using for development. Not required in production. User doesn't need these below packages.
 pytest==7.1.3
 tox==3.25.1
