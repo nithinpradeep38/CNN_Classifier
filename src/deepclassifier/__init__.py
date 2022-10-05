@@ -11,8 +11,8 @@ logging.basicConfig(
     level=logging.INFO, 
     format=logging_str,
     handlers=[
-        logging.FileHandler(log_filepath),
-        logging.StreamHandler(sys.stdout)
+        logging.FileHandler(log_filepath),              
+        logging.StreamHandler(sys.stdout)           #log into file as well as terminal by using streamHandler.
     ])
 
 logger = logging.getLogger("deepClassifierLogger")
