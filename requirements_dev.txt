@@ -10,7 +10,7 @@ pyYAML
 tqdm
 ensure==1.0.2
 joblib
-
+types-pyYAML
 -e .
 
 ## Dev requirements: Using for development. Not required in production. User doesn't need these below packages.
