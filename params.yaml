@@ -1,1 +1,8 @@
-key: val
+AUGMENTATION: True    #To create more dataset
+IMAGE_SIZE: [224, 224, 3] # as per VGG 16 model
+BATCH_SIZE: 16
+INCLUDE_TOP: False    #remove the ANN layer
+EPOCHS: 1
+CLASSES: 2    #dog and cat
+WEIGHTS: imagenet   #use weights of imagenet datasets
+LEARNING_RATE: 0.01
